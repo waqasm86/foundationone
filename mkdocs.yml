@@ -1,0 +1,47 @@
+site_name: FoundationOne Docs
+site_description: Documentation hub for waqasm86 projects (starting with CUDA TCP/IP).
+site_url: https://waqasm86.github.io/foundationone/
+repo_url: https://github.com/waqasm86/foundationone
+repo_name: waqasm86/foundationone
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
+
+nav:
+  - Home: index.md
+  - Projects:
+      - CUDA TCP/IP:
+          - Overview: projects/cuda-tcp-ip/index.md
+          - Build & Run: projects/cuda-tcp-ip/build-run.md
+          - Architecture: projects/cuda-tcp-ip/architecture.md
+          - Benchmarking: projects/cuda-tcp-ip/benchmarking.md
+          - Troubleshooting: projects/cuda-tcp-ip/troubleshooting.md
+  - Contributing: contributing.md
+  - License: license.md

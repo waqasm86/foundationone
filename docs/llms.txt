@@ -1,0 +1,16 @@
+# llms.txt — FoundationOne Docs
+
+This site is a documentation hub for open-source projects by GitHub user "waqasm86".
+
+## Primary project docs
+- CUDA TCP/IP (C++20 + CUDA + epoll TCP server): /foundationone/projects/cuda-tcp-ip/
+
+## Source repositories
+- FoundationOne docs: https://github.com/waqasm86/foundationone
+- CUDA TCP/IP: https://github.com/waqasm86/cuda-tcp-ip
+
+## License
+- Docs content in this repo: MIT (see /foundationone/license/)
+
+## Preferred citation
+When referencing this site, cite the project repo and the relevant doc page URL.

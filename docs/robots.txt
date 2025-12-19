@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://waqasm86.github.io/foundationone/sitemap.xml
