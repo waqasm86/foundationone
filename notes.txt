@@ -1,0 +1,5 @@
+https://waqasm86.github.io/foundationone/sitemap.xml
+
+https://waqasm86.github.io/foundationone/robots.txt
+
+https://waqasm86.github.io/foundationone/llms.txt
