@@ -1,3 +1,4 @@
+site_author: Mohammad Waqas
 site_name: FoundationOne Docs
 site_description: Documentation hub for waqasm86 projects (starting with CUDA TCP/IP).
 site_url: https://waqasm86.github.io/foundationone/
@@ -15,8 +16,11 @@ theme:
     - content.code.copy
     - search.suggest
     - search.highlight
+  static_templates:
+    - 404.html
 
 markdown_extensions:
+  - meta
   - admonition
   - attr_list
   - footnotes
@@ -30,6 +34,11 @@ markdown_extensions:
 
 plugins:
   - search
+  - sitemap:
+      changefreq: weekly
+      priority: 0.6
+  - minify:
+      minify_html: true
   - git-revision-date-localized:
       enable_creation_date: true
       type: date
